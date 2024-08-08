@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="/assets/images/instagram.png">
 	<title>Nina Carducci</title>
 	<meta name="description" content="Le photographe Nina Caducci aime saisir un moment, une émotion, une situation en utilisant sa caméra">
 	<link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -30,22 +31,24 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"addressRegion": "Nouvelle-Aquitaine",
+			"postalCode": "33200"
+		  },
+		  "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+		  "telephone": "05 56 67 78 89"
+		}
+		</script>
 </head>
 <body>
-<!-- Schema.org 
-<div itemscope itemtype="https://schema.org/localbusiness">
-	<h1 itemprop="name">Nina Carducci</h1>
-	<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-		<span itemprop="streetAddress">
-			68 avenue Alsace-Lorraine 
-		</span>
-		<span itemprop="addressLocality">Bordeaux</span>,
-		<span itemprop="addressRegion">Nouvelle-Aquitaine</span>
-		<span itemprop="postalCode">33200</span>
-	  </div>	
-	<p>Disponible: <span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 10:00-19:00">Je réponds au téléphone du lundi au vendredi de 10 h à 19 h</span></p>
-	<p>Phone: <span itemprop="telephone" content="05 56 67 78 89">05 56 67 78 89</span></p>
-</div> -->
 <div class="top-header">
 	<h3 class="name">Nina Carducci</h3>
 	<div class="nav">   
@@ -59,7 +62,6 @@
 	</div>
 </div>
 <div id="header">
-
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
