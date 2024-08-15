@@ -4,8 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="./assets/images/instagram.png">
 	<title>Nina Carducci</title>
-	<meta name="description" content="Le photographe Nina Caducci aime saisir un moment, une émotion, une situation en utilisant sa caméra">
-	<link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<meta name="description" content="Nina Caducci, une photographe de mariage, capture avec passion les moments intimes et magiques de votre journée spéciale.">
+	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,9 +27,9 @@
 	<meta name="twitter:description" content="Le photographe Nina Carducci aime saisir un moment, une émotion, une situation en utilisant sa caméra." />
 	<meta name="twitter:image" content="https://nina-carducci.github.io/assets/images/nina.webp">
 	<meta name="twitter:url" content="https://nina-carducci.github.io/" />
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
+	<script src="./assets/maugallery.min.js"></script>
 	<script src="./assets/scripts.js"></script>
 	<script type="application/ld+json">
 		{
@@ -49,9 +49,9 @@
 		</script>
 </head>
 <body>
-<div class="top-header">
+<header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
-	<div class="nav">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -59,8 +59,8 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="./assets/images/instagram.png" alt="instagram"></a></li>
 		</ul>
-	</div>
-</div>
+	</nav>
+</header>
 <div id="header">
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
@@ -100,7 +100,7 @@
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </div>
-<div id="gallery">
+<main id="gallery">
 	<h3 class="title">Portfolio</h3>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
@@ -123,7 +123,7 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-</div>
+</main>
 <div id="services">
 	<h3 class="title">Mes services</h3>
 	<div class="container">
@@ -168,7 +168,7 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div id="contact">
+<footer id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
@@ -187,6 +187,6 @@
 			<img loading="lazy" src="./assets/images/camera.webp" alt="une caméra">
 		</div>
 	</div>
-</div>
+</footer>
 </body>
 </html>
